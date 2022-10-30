@@ -1,0 +1,75 @@
+/* --------------Variables-------------- */
+
+:root {}
+
+
+/* ------------------------------------ */
+/* ------------Global Style------------ */
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+#dashboard-page {
+    background-color: #f1f5f9;
+}
+
+/* ----------------------------------- */
+/* --------------sidebar-------------- */
+
+aside {
+    padding: 20px;
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    box-shadow: 0 0 10px #ddd;
+    text-align: center;
+}
+
+aside h1 {
+    margin: 0;
+}
+
+/* ------------------------------------ */
